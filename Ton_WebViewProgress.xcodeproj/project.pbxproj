@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5596F601C3D0BFD00525810 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5596F5F1C3D0BFD00525810 /* main.m */; };
+		B5596F631C3D0BFD00525810 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5596F621C3D0BFD00525810 /* AppDelegate.m */; };
+		B5596F661C3D0BFD00525810 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5596F651C3D0BFD00525810 /* ViewController.m */; };
+		B5596F691C3D0BFD00525810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5596F671C3D0BFD00525810 /* Main.storyboard */; };
+		B5596F6B1C3D0BFD00525810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5596F6A1C3D0BFD00525810 /* Assets.xcassets */; };
+		B5596F6E1C3D0BFD00525810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5596F6C1C3D0BFD00525810 /* LaunchScreen.storyboard */; };
+		B5596F791C3D0BFD00525810 /* Ton_WebViewProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5596F781C3D0BFD00525810 /* Ton_WebViewProgressTests.m */; };
+		B5596F841C3D0BFD00525810 /* Ton_WebViewProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5596F831C3D0BFD00525810 /* Ton_WebViewProgressUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5596F751C3D0BFD00525810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5596F531C3D0BFD00525810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5596F5A1C3D0BFD00525810;
+			remoteInfo = Ton_WebViewProgress;
+		};
+		B5596F801C3D0BFD00525810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5596F531C3D0BFD00525810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5596F5A1C3D0BFD00525810;
+			remoteInfo = Ton_WebViewProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5596F5B1C3D0BFD00525810 /* Ton_WebViewProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ton_WebViewProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5596F5F1C3D0BFD00525810 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5596F611C3D0BFD00525810 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5596F621C3D0BFD00525810 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5596F641C3D0BFD00525810 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5596F651C3D0BFD00525810 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5596F681C3D0BFD00525810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5596F6A1C3D0BFD00525810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5596F6D1C3D0BFD00525810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5596F6F1C3D0BFD00525810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5596F741C3D0BFD00525810 /* Ton_WebViewProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ton_WebViewProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5596F781C3D0BFD00525810 /* Ton_WebViewProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ton_WebViewProgressTests.m; sourceTree = "<group>"; };
+		B5596F7A1C3D0BFD00525810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5596F7F1C3D0BFD00525810 /* Ton_WebViewProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ton_WebViewProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5596F831C3D0BFD00525810 /* Ton_WebViewProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ton_WebViewProgressUITests.m; sourceTree = "<group>"; };
+		B5596F851C3D0BFD00525810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5596F581C3D0BFD00525810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5596F711C3D0BFD00525810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5596F7C1C3D0BFD00525810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5596F521C3D0BFD00525810 = {
+			isa = PBXGroup;
+			children = (
+				B5596F5D1C3D0BFD00525810 /* Ton_WebViewProgress */,
+				B5596F771C3D0BFD00525810 /* Ton_WebViewProgressTests */,
+				B5596F821C3D0BFD00525810 /* Ton_WebViewProgressUITests */,
+				B5596F5C1C3D0BFD00525810 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5596F5C1C3D0BFD00525810 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5596F5B1C3D0BFD00525810 /* Ton_WebViewProgress.app */,
+				B5596F741C3D0BFD00525810 /* Ton_WebViewProgressTests.xctest */,
+				B5596F7F1C3D0BFD00525810 /* Ton_WebViewProgressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5596F5D1C3D0BFD00525810 /* Ton_WebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				B5596F611C3D0BFD00525810 /* AppDelegate.h */,
+				B5596F621C3D0BFD00525810 /* AppDelegate.m */,
+				B5596F641C3D0BFD00525810 /* ViewController.h */,
+				B5596F651C3D0BFD00525810 /* ViewController.m */,
+				B5596F671C3D0BFD00525810 /* Main.storyboard */,
+				B5596F6A1C3D0BFD00525810 /* Assets.xcassets */,
+				B5596F6C1C3D0BFD00525810 /* LaunchScreen.storyboard */,
+				B5596F6F1C3D0BFD00525810 /* Info.plist */,
+				B5596F5E1C3D0BFD00525810 /* Supporting Files */,
+			);
+			path = Ton_WebViewProgress;
+			sourceTree = "<group>";
+		};
+		B5596F5E1C3D0BFD00525810 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5596F5F1C3D0BFD00525810 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5596F771C3D0BFD00525810 /* Ton_WebViewProgressTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5596F781C3D0BFD00525810 /* Ton_WebViewProgressTests.m */,
+				B5596F7A1C3D0BFD00525810 /* Info.plist */,
+			);
+			path = Ton_WebViewProgressTests;
+			sourceTree = "<group>";
+		};
+		B5596F821C3D0BFD00525810 /* Ton_WebViewProgressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5596F831C3D0BFD00525810 /* Ton_WebViewProgressUITests.m */,
+				B5596F851C3D0BFD00525810 /* Info.plist */,
+			);
+			path = Ton_WebViewProgressUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5596F5A1C3D0BFD00525810 /* Ton_WebViewProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5596F881C3D0BFD00525810 /* Build configuration list for PBXNativeTarget "Ton_WebViewProgress" */;
+			buildPhases = (
+				B5596F571C3D0BFD00525810 /* Sources */,
+				B5596F581C3D0BFD00525810 /* Frameworks */,
+				B5596F591C3D0BFD00525810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ton_WebViewProgress;
+			productName = Ton_WebViewProgress;
+			productReference = B5596F5B1C3D0BFD00525810 /* Ton_WebViewProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5596F731C3D0BFD00525810 /* Ton_WebViewProgressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5596F8B1C3D0BFD00525810 /* Build configuration list for PBXNativeTarget "Ton_WebViewProgressTests" */;
+			buildPhases = (
+				B5596F701C3D0BFD00525810 /* Sources */,
+				B5596F711C3D0BFD00525810 /* Frameworks */,
+				B5596F721C3D0BFD00525810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5596F761C3D0BFD00525810 /* PBXTargetDependency */,
+			);
+			name = Ton_WebViewProgressTests;
+			productName = Ton_WebViewProgressTests;
+			productReference = B5596F741C3D0BFD00525810 /* Ton_WebViewProgressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5596F7E1C3D0BFD00525810 /* Ton_WebViewProgressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5596F8E1C3D0BFD00525810 /* Build configuration list for PBXNativeTarget "Ton_WebViewProgressUITests" */;
+			buildPhases = (
+				B5596F7B1C3D0BFD00525810 /* Sources */,
+				B5596F7C1C3D0BFD00525810 /* Frameworks */,
+				B5596F7D1C3D0BFD00525810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5596F811C3D0BFD00525810 /* PBXTargetDependency */,
+			);
+			name = Ton_WebViewProgressUITests;
+			productName = Ton_WebViewProgressUITests;
+			productReference = B5596F7F1C3D0BFD00525810 /* Ton_WebViewProgressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5596F531C3D0BFD00525810 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王光旭";
+				TargetAttributes = {
+					B5596F5A1C3D0BFD00525810 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B5596F731C3D0BFD00525810 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B5596F5A1C3D0BFD00525810;
+					};
+					B5596F7E1C3D0BFD00525810 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B5596F5A1C3D0BFD00525810;
+					};
+				};
+			};
+			buildConfigurationList = B5596F561C3D0BFD00525810 /* Build configuration list for PBXProject "Ton_WebViewProgress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5596F521C3D0BFD00525810;
+			productRefGroup = B5596F5C1C3D0BFD00525810 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5596F5A1C3D0BFD00525810 /* Ton_WebViewProgress */,
+				B5596F731C3D0BFD00525810 /* Ton_WebViewProgressTests */,
+				B5596F7E1C3D0BFD00525810 /* Ton_WebViewProgressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5596F591C3D0BFD00525810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5596F6E1C3D0BFD00525810 /* LaunchScreen.storyboard in Resources */,
+				B5596F6B1C3D0BFD00525810 /* Assets.xcassets in Resources */,
+				B5596F691C3D0BFD00525810 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5596F721C3D0BFD00525810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5596F7D1C3D0BFD00525810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5596F571C3D0BFD00525810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5596F661C3D0BFD00525810 /* ViewController.m in Sources */,
+				B5596F631C3D0BFD00525810 /* AppDelegate.m in Sources */,
+				B5596F601C3D0BFD00525810 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5596F701C3D0BFD00525810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5596F791C3D0BFD00525810 /* Ton_WebViewProgressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5596F7B1C3D0BFD00525810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5596F841C3D0BFD00525810 /* Ton_WebViewProgressUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5596F761C3D0BFD00525810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5596F5A1C3D0BFD00525810 /* Ton_WebViewProgress */;
+			targetProxy = B5596F751C3D0BFD00525810 /* PBXContainerItemProxy */;
+		};
+		B5596F811C3D0BFD00525810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5596F5A1C3D0BFD00525810 /* Ton_WebViewProgress */;
+			targetProxy = B5596F801C3D0BFD00525810 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5596F671C3D0BFD00525810 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5596F681C3D0BFD00525810 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5596F6C1C3D0BFD00525810 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5596F6D1C3D0BFD00525810 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5596F861C3D0BFD00525810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5596F871C3D0BFD00525810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5596F891C3D0BFD00525810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ton_WebViewProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.Ton-WebViewProgress";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5596F8A1C3D0BFD00525810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ton_WebViewProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.Ton-WebViewProgress";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5596F8C1C3D0BFD00525810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Ton_WebViewProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.Ton-WebViewProgressTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ton_WebViewProgress.app/Ton_WebViewProgress";
+			};
+			name = Debug;
+		};
+		B5596F8D1C3D0BFD00525810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Ton_WebViewProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.Ton-WebViewProgressTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ton_WebViewProgress.app/Ton_WebViewProgress";
+			};
+			name = Release;
+		};
+		B5596F8F1C3D0BFD00525810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Ton_WebViewProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.Ton-WebViewProgressUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ton_WebViewProgress;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B5596F901C3D0BFD00525810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Ton_WebViewProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.Ton-WebViewProgressUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ton_WebViewProgress;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5596F561C3D0BFD00525810 /* Build configuration list for PBXProject "Ton_WebViewProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5596F861C3D0BFD00525810 /* Debug */,
+				B5596F871C3D0BFD00525810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5596F881C3D0BFD00525810 /* Build configuration list for PBXNativeTarget "Ton_WebViewProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5596F891C3D0BFD00525810 /* Debug */,
+				B5596F8A1C3D0BFD00525810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5596F8B1C3D0BFD00525810 /* Build configuration list for PBXNativeTarget "Ton_WebViewProgressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5596F8C1C3D0BFD00525810 /* Debug */,
+				B5596F8D1C3D0BFD00525810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5596F8E1C3D0BFD00525810 /* Build configuration list for PBXNativeTarget "Ton_WebViewProgressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5596F8F1C3D0BFD00525810 /* Debug */,
+				B5596F901C3D0BFD00525810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5596F531C3D0BFD00525810 /* Project object */;
+}
