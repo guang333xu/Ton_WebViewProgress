@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +15,77 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GwE-mH-dz9">
+                                <rect key="frame" x="0.0" y="64" width="600" height="492"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="wtp-p0-nTI">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="bgU-d0-Ri6"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="1Gh-ef-yNv"/>
+                                </connections>
+                            </searchBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MrD-YZ-PFI">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="QHC-ss-Zqi"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem image="backbutton.png" id="YmR-oU-frG">
+                                        <connections>
+                                            <action selector="goBack:" destination="BYZ-38-t0r" id="jDj-mb-Ygw"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="e1z-ib-Pjj"/>
+                                    <barButtonItem id="npu-l0-CLs">
+                                        <connections>
+                                            <action selector="refreshWebView:" destination="BYZ-38-t0r" id="wSW-n7-Wa6"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="TO7-dj-4iQ"/>
+                                    <barButtonItem image="forwardbutton.png" id="Tl3-ux-6lh">
+                                        <connections>
+                                            <action selector="goForword:" destination="BYZ-38-t0r" id="y9F-CO-Bab"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GwE-mH-dz9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="66q-Vb-k8x"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="MrD-YZ-PFI" secondAttribute="bottom" id="CpH-66-fyE"/>
+                            <constraint firstItem="GwE-mH-dz9" firstAttribute="top" secondItem="wtp-p0-nTI" secondAttribute="bottom" id="DMg-yl-fhT"/>
+                            <constraint firstItem="wtp-p0-nTI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="IyS-Xu-FvA"/>
+                            <constraint firstItem="MrD-YZ-PFI" firstAttribute="top" secondItem="GwE-mH-dz9" secondAttribute="bottom" id="OSG-F1-e9r"/>
+                            <constraint firstAttribute="trailing" secondItem="GwE-mH-dz9" secondAttribute="trailing" id="Yax-Hj-ukn"/>
+                            <constraint firstItem="MrD-YZ-PFI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="icJ-Q7-yyH"/>
+                            <constraint firstAttribute="trailing" secondItem="wtp-p0-nTI" secondAttribute="trailing" id="rrs-go-7ZX"/>
+                            <constraint firstItem="wtp-p0-nTI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="yc6-O2-cBQ"/>
+                            <constraint firstAttribute="trailing" secondItem="MrD-YZ-PFI" secondAttribute="trailing" id="z6t-Ej-Q5f"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="YSd-gp-zOy"/>
+                    <connections>
+                        <outlet property="goBack" destination="YmR-oU-frG" id="fjV-02-UW3"/>
+                        <outlet property="goForword" destination="Tl3-ux-6lh" id="g00-r5-20P"/>
+                        <outlet property="refreshButton" destination="npu-l0-CLs" id="p19-2N-kH1"/>
+                        <outlet property="searchBar" destination="wtp-p0-nTI" id="OmQ-ev-abP"/>
+                        <outlet property="webView" destination="GwE-mH-dz9" id="GkS-mO-Zcb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="2759" y="333"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="backbutton.png" width="22" height="22"/>
+        <image name="forwardbutton.png" width="22" height="22"/>
+    </resources>
 </document>
